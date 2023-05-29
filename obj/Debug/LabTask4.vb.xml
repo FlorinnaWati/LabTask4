@@ -1,0 +1,471 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LabTask4.vb
+</name>
+</assembly>
+<members>
+<member name="T:LabTask4.vb.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LabTask4.vb.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LabTask4.vb.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.dunhilDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.dunhilDataSet.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.dunhilDataSet.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.dunhilDataSet.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.dunhilDataSetTableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.dunhilDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LabTask4.vb.dunhilDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LabTask4.vb.dunhilDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.dunhilDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LabTask4.vb.dunhilDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.dunhilDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LabTask4.vb.dunhilDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.dunhilDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LabTask4.vb.dunhilDataSetTableAdapters.TableAdapterManager.UpdateAll(LabTask4.vb.dunhilDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LabTask4.vb.dunhilDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LabTask4.vb.dunhilDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet.customerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet.restaurantDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet.customerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet.restaurantRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet.customerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet.restaurantRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSetTableAdapters.customerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSetTableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSetTableAdapters.restaurantTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LabTask4.vb.L4DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LabTask4.vb.L4DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LabTask4.vb.L4DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSetTableAdapters.TableAdapterManager.UpdateAll(LabTask4.vb.L4DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1.customerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1.restaurantDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1.customerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1.restaurantRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1.customerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1.restaurantRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1TableAdapters.customerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1TableAdapters.restaurantTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(LabTask4.vb.L4DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(LabTask4.vb.L4DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(LabTask4.vb.L4DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet1TableAdapters.TableAdapterManager.UpdateAll(LabTask4.vb.L4DataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2.customerDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2.loginDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2.restaurantDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2.customerRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2.loginRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2.restaurantRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2.customerRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2.loginRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2.restaurantRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2TableAdapters.customerTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2TableAdapters.loginTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2TableAdapters.restaurantTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(LabTask4.vb.L4DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(LabTask4.vb.L4DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(LabTask4.vb.L4DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet2TableAdapters.TableAdapterManager.UpdateAll(LabTask4.vb.L4DataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet3">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet3.restaurantDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet3.restaurantRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet3.restaurantRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet3TableAdapters.restaurantTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet3TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(LabTask4.vb.L4DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(LabTask4.vb.L4DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(LabTask4.vb.L4DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LabTask4.vb.L4DataSet3TableAdapters.TableAdapterManager.UpdateAll(LabTask4.vb.L4DataSet3)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LabTask4.vb.L4DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,17 @@
+c:\users\huawei\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\bin\Debug\LabTask4.vb.exe.config
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\bin\Debug\LabTask4.vb.exe
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\bin\Debug\LabTask4.vb.pdb
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\bin\Debug\LabTask4.vb.xml
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.vbprojResolveAssemblyReference.cache
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.Form1.resources
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.Form2.resources
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.Form3.resources
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.Resources.resources
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.SplashScreen1.resources
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.vbproj.GenerateResource.Cache
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.exe
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.xml
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.pdb
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.Form4.resources
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.Form5.resources
+C:\Users\HUAWEI\documents\visual studio 2015\Projects\LabTask4.vb\LabTask4.vb\obj\Debug\LabTask4.vb.Form6.resources
